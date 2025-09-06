@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos virtuales (en tu proyecto veo "virtual/")
+venv/
+.venv/
+env/
+virtual/
+
+# Flask / instance
+instance/
+*.db
+*.sqlite3
+
+# Variables y secretos
+.env
+.env.*
+
+# VS Code (opcional)
+.vscode/
+
+# Otros
+*.log
