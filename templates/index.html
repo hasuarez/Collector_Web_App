@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[<!DOCTYPE html>
 <html lang="en">
     <title>Data collector</title>
 <head>
@@ -12,6 +12,9 @@
     <div class = "container">
         <h1>promedio de pesos</h1>
         <h3>please fill the entires to get population statistics on Height</h3>
+        <div class = "message">
+         {{text | safe}}   
+        </div>
             <form action="{{url_for('success')}}"  method= "POST">
             <input title ="your email will be safe with us " placeholder="Enter your email addres" type="email" name="email_name" required> <br>
             <input title="you data will be safe with us" placeholder="Enter your height in cm" type="number" min="50" max="300" name="height_name" required> <br> 
@@ -19,4 +22,4 @@
         </form>
     </div>
 </body>
-</html>
+</html>]
